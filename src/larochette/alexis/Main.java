@@ -10,8 +10,11 @@ public class Main {
         System.out.println("Le plus grand diviseur commun est : " + fonction.pgcd(81,15));
         System.out.println("-----------------------------------");
         System.out.println(+ fonction.sumNprem(5) +" <--");
-        System.out.println("-----------------------------------");
-        System.out.println("POLYGONES");
+
+        System.out.println("\n---------------------------------------------------------");
+        System.out.println("EXERCICE 1 - POLYGONES ");
+        System.out.println("---------------------------------------------------------");
+
         Polygon polygone1 = new Polygon(5,8);
         Polygon polygone2 = new Polygon(4,9);
         polygone1.randomPolygon();
@@ -46,8 +49,15 @@ public class Main {
         }
         else
         {
-            System.out.println("Polygone 1 est plus petit que Polygone2");
+            System.out.println("Polygone 1 est plus petit que Polygone2 \n");
         }
+        System.out.println("\n---------------------------------------------------------");
+        System.out.println("EXERCICE 2 - GESTION D'HEURE ");
+        System.out.println("---------------------------------------------------------");
+        IntervenantExterieur Ite = new IntervenantExterieur("RICOLAS","44");
+        IntervenantFac Itf = new IntervenantFac("MEYOS","15");
+        System.out.println(Ite.toString());
+        System.out.println(Itf.toString());
     }
 
 }
